@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --secondary-color: #0084FD;
+    --black-color: #333333;
+    --light-color: #FFFFFF;
+    --primary-color: #9792E4;
+    --card-color:#B5DDFF;
+    --yellow-contrast: #F3BC6C;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/*******
+utilities
+********/
+
+.container {
+    padding: 15px;
+}
+.txt-center{
+    text-align: center;
+}
+/********
+header
+********/
+header {
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    z-index: 1000;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+header nav ul {
+    display: none;
+}
+header nav a {
+    color: var(--light-color);
+}
+/*****************
+header
+******************/
+
+
+
+
+/************
+ main 
+*************/ 
+main {
+    margin-top: 80px;
+}
+.card {
+    background-color: var(--card-color);
+    border-radius: 20px;
+
+}
+.card img {
+   max-width: 100%;
+}
+/************
+ main 
+*************/ 
+
+/**********************************
+footer
+***********************************/
+
+
+
+
+
+
+
+/**********************************
+footer
+***********************************/
