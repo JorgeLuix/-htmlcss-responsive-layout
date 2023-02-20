@@ -13,6 +13,11 @@
     --yellow-contrast: #F3BC6C;
 
 }
+body {
+    font-family: 'Livvic', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+}
 
 html {
     scroll-behavior: smooth;
@@ -23,6 +28,8 @@ utilities
 
 .container {
     padding: 15px;
+    max-width: 768px;
+    margin: 0 auto;
 }
 .txt-center{
     text-align: center;
@@ -53,6 +60,9 @@ header nav ul {
 header nav a {
     color: var(--light-color);
 }
+.fa-solid,.fa-bars {
+    font-size: 30px;
+}
 /*****************
 header
 ******************/
@@ -70,6 +80,29 @@ main {
     background-color: var(--card-color);
     border-radius: 20px;
 
+}
+.card-left {
+    padding: 30px;
+    
+}
+.card-left h3 {
+    font-size: 30px;
+    color: var(--secondary-color);
+}
+.card-left p {
+    padding: 20px 0;
+    line-height: 1.8;
+}
+
+.btn a {
+    background-color: var(--secondary-color);
+    padding: 10px 50px;
+    border-radius: 30px;
+    color: var(--light-color);
+    text-decoration: none;
+}
+.fa-brands, .fa-apple {
+    padding-right: 10px;
 }
 .card img {
    max-width: 100%;
