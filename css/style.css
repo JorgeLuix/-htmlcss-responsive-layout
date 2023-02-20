@@ -15,9 +15,10 @@
 }
 body {
     font-family: 'Livvic', sans-serif;
-font-family: 'Noto Sans', sans-serif;
-font-family: 'PT Sans', sans-serif;
-
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    background-color: var(--light-color);
+   
 }
 
 html {
@@ -29,10 +30,11 @@ utilities
 
 .container {
     padding: 15px;
-    max-width: 768px;
-    margin: 0 auto;
+     width: 100%;
     
-    
+}
+.primary-color {
+    background-color: var(--primary-color);
 }
 .txt-center{
     text-align: center;
@@ -127,6 +129,17 @@ main {
     color: var(--secondary-color);
     
 }
+/************Sezione Planning*********/
+.contenuto-left img {
+    width: 100%;  
+}
+.contenuto-right {
+    width: 100%;
+}
+
+
+/************Sezione Planning*********/
+
 /************
  main 
 *************/ 
@@ -144,3 +157,20 @@ footer
 /**********************************
 footer
 ***********************************/
+
+
+
+/****mediaquery***/
+@media screen and (min-width: 768px){
+    .flex{
+        display: flex;
+        flex-flow: row wrap;
+        gap:10px;
+    }
+    #intro .card {
+        width: calc((100% / 3) - 10px);
+    }
+    #intro .card:first-child {
+        width: calc((100% / 3) * 2 - 10px);
+    }
+}
