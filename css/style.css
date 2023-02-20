@@ -130,15 +130,72 @@ main {
     
 }
 /************Sezione Planning*********/
+.contenuto-planning {
+   padding: 40px;
+  
+}
+
+.contenuto-planning h2,p{
+    padding: 10px 0;
+}
 .contenuto-left img {
-    width: 100%;  
+    width: 60%;  
 }
-.contenuto-right {
-    width: 100%;
+.contenuto-right img {
+    width: 60%;    
 }
+.contenuto-left {
+    width: 50%;
+    text-align: center;
+}
+.contenuto-right{
+    background-color: var(--light-color);
+    border-radius: 20px;
+    width: 50%;
+    padding: 30px 10px;
+    
+    text-align: center;
+}
+
 
 
 /************Sezione Planning*********/
+
+/********TESTIMONIAL********/
+.testimonial {
+   
+    
+}
+.testimonial img {
+    width: 100%; 
+    overflow: hidden;  
+    width: 30%;
+    height: 30vw;
+    display: inline-block;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50%;
+    
+}
+.testo {
+    color: var(--light-color);
+    font-size: 15px;
+}
+.testo span {
+    font-size: 20px;
+}
+#mark {
+    font-size: 15px;
+}
+.partners {
+    
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+/********TESTIMONIAL********/
 
 /************
  main 
@@ -173,4 +230,11 @@ footer
     #intro .card:first-child {
         width: calc((100% / 3) * 2 - 10px);
     }
+    .testimonial {
+       display: flex;
+       align-items: center;
+       
+    }
+    
+  
 }
