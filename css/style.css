@@ -75,7 +75,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
 }
-ul{
+.ul-nav li{
     list-style: none;
 }
 header nav ul {
@@ -85,7 +85,14 @@ header nav a {
     color: var(--light-color);
 }
 .fa-solid,.fa-bars {
-    font-size: 30px;
+
+        font-size: 30px;
+        position: absolute;
+        cursor: pointer;
+        top: 20px;
+        right: 30px;
+        display: block;
+    
 }
 /*****************
 header
@@ -237,6 +244,25 @@ main {
 
 /********Benefits********/
 
+/********About********/
+.started p {
+   font-size: 15px;
+   color: var(--card-color);
+}
+.started h2{
+    color: var(--light-color);
+    font-size: 20px;
+}
+.started h3{
+    color: var(--yellow-contrast);
+    font-size: 40px;
+}
+.ul-princing li {
+    text-decoration: dotted;
+    display: flex;
+}
+
+/********About********/
 
 
 /************
@@ -294,4 +320,33 @@ footer
     }
 
   
+}
+@media screen and (min-width: 992px){
+    .container{
+        max-width: 950px;
+    }
+    
+    .fa-solid,.fa-bars {
+        display: none;
+    }
+
+    .ul-nav {
+        font-size: 17px;
+        display: flex;
+       /* justify-content: flex-end;*/   
+    }
+    .ul-nav a {
+        padding: 10px;
+        text-decoration: none;
+        
+    }
+    #get{
+        background-color: var(--light-color);
+        color: #333333;
+        border-radius: 20px;
+        padding: 5px 10px;
+    }
+    .ul-nav a:hover {
+        box-shadow: 0px 1px 0px 0 var(--card-color);
+    }
 }
