@@ -15,7 +15,7 @@
     <header class="">
        <nav class="container nav-header">
         <img src="./img/logo.png" alt="">
-        <a  href=""><i class="fa-solid fa-bars"></i></a>
+        <a  href=""><i class="fa-solid fa-bars barra"></i></a>
         <ul class="ul-nav">
             <li><a href="#Planning">Planning</a></li>
             <li><a href="#Testimonials">Testimonials</a></li>
@@ -28,7 +28,7 @@
     <main>
         <section id="intro">
             <div class="container flex">
-                <div class="card">
+                <div class="card di-flex">
                     <div class="card-left">
                         <h3>Get a demo application</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -80,10 +80,9 @@
         <!------ 
             sezione planning
             ------->
-        <section class="primary-color">
-            
-                <div class="contenuto-planning">
-                    <div class="contenuto-left container">
+        <section class="primary-color" id="planning">
+                <div class="container di-flex">
+                    <div class="col">
                         <img src="img/planning1.png" alt="">
                         <h2>Strategic Planning</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt sunt adipisci, fugiat voluptatem laudantium iusto consectetur repellendus inventore magni cupiditate quis labore dolor sit dolore non! 
@@ -91,54 +90,58 @@
 
                         </p>
                     </div>
-                    <div class="contenuto-right container">
-                        <img src="img/planning2.png" alt="">
-                        <h2>App Developement</h2>
-                        <p>Developed an on-demand app for your delivery business to reach your targeted customers whithout any interrruption.</p>
-                        <i class="fa-solid fa-arrow-down"></i>
+                    <div class="col">
+                        <div class="box">
+                            <img src="img/planning2.png" alt="">
+                            <h2>App Developement</h2>
+                            <p>Developed an on-demand app for your delivery business to reach your targeted customers whithout any interrruption.</p>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
                     </div>
                     
+                
                 </div>
         </section>
     <!------ 
             sezione planning
             ------->
  <!------ 
-            sezione partners
+            sezione testimonial
             ------->
         <section id="partners">
-            <div class="container txt-center">
+            <div class="container txt-center committed">
                 <h3>We are committed expert partners</h3>
                 <p> we place huge value on strong relationships and have seen the benefit they bring to our business.Customer feedback is vital in hepling us to get right.</p>
             
-                <div class="partners">
+                <div class="partners di-flex">
                     <div class="testimonial">
                         <img src="img/testimonial1.jpg" alt="">
                     </div>  
                         <div class="testo">
                            <p><i id="mark" class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Delectus ex soluta minus non quibusdam recusandae quas vero rerum sapiente.<i id="mark" class="fa-solid fa-quote-right"></i></p>
+                            Delectus ex soluta minus non quibusdam 
+                            recusandae quas vero rerum sapiente.<i id="mark" class="fa-solid fa-quote-right"></i></p>
                             <span> Nat Reynolds</span>
                         </div>
                 </div>
-                <div class="partners">
+                <div class="partners di-flex">
                     <div class="testimonial">
                         <img src="img/testimonial2.jpg" alt="">
                     </div>  
                         <div class="testo">
                            <p><i id="mark" class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Delectus ex soluta minus non quibusdam recusandae quas vero rerum sapiente.<i id="mark" class="fa-solid fa-quote-right"></i></p>
-                            <span> Nat Reynolds</span>
+                            <span> Celia Almeda</span>
                         </div>
                 </div>
-                <div class="partners">
+                <div class="partners di-flex">
                     <div class="testimonial">
                         <img src="img/testimonial3.jpg" alt="">
                     </div>  
                         <div class="testo">
                            <p><i id="mark" class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Delectus ex soluta minus non quibusdam recusandae quas vero rerum sapiente.<i id="mark" class="fa-solid fa-quote-right"></i></p>
-                            <span> Nat Reynolds</span>
+                            <span>Bob Roberts</span>
                         </div>
                 </div>
                 
@@ -152,8 +155,8 @@
             sezione benefits
             ------->
         
-        <section class="primary-color">
-            <div class="container">
+        <section class="primary-color" id="benefits">
+            <div class="container titolo">
                     <h2 >Benefits of working with us</h2>
                         <div class="working-us flex">
                             <div class=" work border-card">
@@ -178,15 +181,15 @@
                             <a class="btn-violet" href="">More</a>
                          </div>
                          <div class=" work border-card">
-                            <h3>Best Pricing</h3>
-                            <h4>Hight Quality</h4>
+                            <h3>04</h3>
+                            <h4>Best Pricing</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident minus aspernatur cupiditate placeat.
                          Maxime itaque commodi ipsam nihil, delectus consectetur!</p>
                             <a class="btn-violet" href="">More</a>
                          </div>
                          <div class=" work border-card">
-                            <h3>Innovations</h3>
-                            <h4>Hight Quality</h4>
+                            <h3>05</h3>
+                            <h4>Innovations</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident minus aspernatur cupiditate placeat.
                          Maxime itaque commodi ipsam nihil, delectus consectetur!</p>
                             <a class="btn-violet" href="">More</a>
@@ -198,16 +201,9 @@
                          Maxime itaque commodi ipsam nihil, delectus consectetur!</p>
                             <a class="btn-violet" href="">More</a>
                          </div>
-                        
-                        
-                        
-                        
+  
                         </div>
-                
-                
-                
-                
-                </div>
+            </div>
             
         </section>
         <!------ 
@@ -218,9 +214,10 @@
             sezione about
             ------->
         <section id="about">
-            <div class="container">
-                <h3>About Us</h3>
+            <div class="container flex">
+                
                 <div class="column">
+                    <h3>About Us</h3>
                     <div class="txt">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur sit itaque quia fugit iste facere fugiat nam fuga ex, maiores voluptates, provident nulla vero. Quasi beatae dolorem consequatur. Praesentium, saepe aliquam repellendus deserunt expedita illum dolor sit a. Maiores minus, ex neque quidem inventore laborum eos saepe sequi beatae, dolor provident deserunt dicta temporibus voluptatum quae veniam culpa molestias est harum natus cupiditate iusto minima distinctio. Modi vero consequuntur esse voluptatem facere,
                                 laudantium voluptatum laboriosam neque? Rem molestiae in deserunt!</p>
@@ -228,8 +225,8 @@
                                 Nulla asperiores aut similique blanditiis magnam omnis ipsa amet sint!</p>
                     </div>
                 </div>
-                <div class="column">
-                <div class="testimonial-1">
+                <div class="column col-padding">
+                <div class="padding-about">
                     <div class="testimonial-1 img">
                         <img src="img/about.jpg" alt="">
                     </div>
@@ -242,9 +239,9 @@
                 </div>  
             </div>
         </section>
-        <!------ 
+        <!------ //
             sezione about
-            ------->
+           // ------->
         <section class="primary-color">
             <div class="container">
                 <div class=" started txt-center">
@@ -253,16 +250,23 @@
                     <h3>It's Free!</h3>
                 
                 <p>We're still in beta and we will be for awile.As we add more functionality,we'll look into other plans with more controls.</p>
-                    <a href="">Get Started</a>
+                    <a class="get-start" href="">Get Started</a>
+                    <div class="copyright">
+                        Copyright 2021 Boolean . Clase XCII . Privacy policy
+                    </div>
             </div>
-            <ul class="ul-princing">
-                <li>Copyright 2021 Boolean</li>
-                <li>Classe XCII</li>
-                <li>Privacy politicy</li>
-            </ul>
+            
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptatem, praesentium temporibus officiis voluptates veniam adipisci non necessitatibus odit porro eligendi.</p>
+                <p><a href="">lorem ipsum</a>
+                scelerisque mauris pellentesque
+                <a href=""> Boolean careers</a></p>
+            </div>
+    </footer>
 </body>
 </html>
