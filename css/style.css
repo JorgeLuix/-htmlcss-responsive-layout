@@ -58,13 +58,19 @@ utilities
     color: #333333;
     border-radius: 20px;
     padding: 5px 10px;
-    text-decoration: none;
+    text-decoration: none;   
+}
+.padding-small {
+    padding: 20px 0;
 }
 h3 {
     font-size: 30px;
     color: var(--secondary-color);
     padding: 10px 0;
 
+    }
+    .copyright {
+        color: var(--light-color);
     }
 /********
 header
@@ -265,6 +271,7 @@ img {
 .started p {
    font-size: 15px;
    color: var(--card-color);
+   
 }
 .started h2{
     color: var(--light-color);
@@ -274,7 +281,9 @@ img {
     color: var(--yellow-contrast);
     font-size: 40px;
 }
-
+.started a {
+    pa
+}
 
 /***************/
 
